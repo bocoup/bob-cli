@@ -1,0 +1,21 @@
+{
+  "name": "bob-cli",
+  "version": "1.0.0",
+  "description": "Draw Bob in the Terminal!",
+  "main": "index.js",
+  "bin": {
+    "bob-cli": "index.js"
+  },
+  "dependencies": {
+    "charm": "^1.0.0",
+    "axel": "^0.0.3",
+    "get-pixels": "^3.2.3",
+    "imaging": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node bin"
+  },
+  "author": "Bocoup",
+  "license": "MIT"
+}
